@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button)
         val message = findViewById<TextView>(R.id.message)
-        button.setOnClickListener { message.text = "Launcher!" }
+        val messageChanged = getString(R.string.text_view_message_changed)
+        button.setOnClickListener { message.text = messageChanged }
 
     }
 }

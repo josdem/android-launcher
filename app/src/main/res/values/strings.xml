@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">launcher</string>
     <string name="text_view_message">Hello</string>
+    <string name="text_view_message_changed">Launcher!</string>
     <string name="button_change">Go</string>
     <string name="aid_message">messageTextView</string>
     <string name="aid_change">changeButton</string>
