@@ -3,7 +3,7 @@ package com.jos.dem.launcher
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,9 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener {
-            Toast.makeText(this, "Clicked Go!", Toast.LENGTH_SHORT).show()
-        }
+        val message = findViewById<TextView>(R.id.message)
+        button.setOnClickListener { message.text = "Launcher!" }
 
     }
 }
