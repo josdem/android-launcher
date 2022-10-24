@@ -6,7 +6,7 @@ This project is a basic [Android](https://www.android.com/) application using [K
 ### Requirements
 
 * [Android Studio](https://developer.android.com/studio)
-* Pixel 5 emulator API level 30 and platform version 11
+* Pixel 6 emulator API level 33 and platform version 13
 
 ### To build the project
 
