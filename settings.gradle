@@ -4,6 +4,9 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven{url 'https://applitools.jfrog.io/artifactory/nmg/android/nmg_lib'}
+        maven {
+            url 'https://applitools.jfrog.io/artifactory/Android/'
+        }
     }
 }
 rootProject.name = "launcher"
